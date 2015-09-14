@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Dropdown</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+	<link rel="stylesheet" href="dropdown.css">
+</head>
+<body>
+	<div class="container">
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu1" data-toggle="dropdown" aria-extended="true">
+				Dropdown
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownmenu1">
+				<li role="presentantion" class="dropdown-header">Header</li>
+				<li class="divider"></li>
+				<li role="presentation"><a role="item" href="#">
+				Item #1</a></li>
+				<li role="presentation"><a role="item" href="#">Item #2</a></li>
+				<li role="presentation"><a role="item" href="#">Item #3</a></li>
+				<li role="presentation"> <a role="item" href="#">Item #4</a></li>
+				<li class="divider"></li>
+				<li role="presentation"><a role="item" href="#" class="btn btn-primary"><span class="glyphicon glyphicon-ok"></span> Boton :)</a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
